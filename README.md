@@ -41,7 +41,29 @@ Built Classification models to determine the player from Shakespeare-plays datas
 ![](https://github.com/SFLazarus/Player-Classifier/blob/master/reports/player_count_plot.png)
 
 ---
+# Results: (80% of data is used for training and 20% for testing)
 
+### Decision Tree Classifier
+#### Accuracy of Decision Tree classifier on training set: 100%
+#### Accuracy of Decision Tree classifier on test set: 79%
+- performed pretty good compared to others.
+
+### K- Nearest Neighbors Classifier
+#### Accuracy of K-NN classifier on training set: 76%
+#### Accuracy of K-NN classifier on test set: 53%
+-not too bad performance.
+
+### Gaussian Naive Bayes Classifier
+#### Accuracy of GNB classifier on training set: 23%
+#### Accuracy of GNB classifier on test set: 22%
+- worst performance overall.
+
+### Random Forest Classifier
+#### Accuracy of Random Forest classifier on training set: 100%
+#### Accuracy of Random Forest classifier on test set: 82%
+- best performing model.
+
+---
 
 # Project Structure:
 ### Readme.md
